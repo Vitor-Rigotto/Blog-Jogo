@@ -1,0 +1,82 @@
+/*Estilo do corpo da pagina*/
+body{
+  background-image: url(../img/meio1.jpg);
+}
+li:hover {
+    background-color:#00ff00!important;
+}
+
+/*Estilo do cabeçalho e menu*/
+.logo{
+  margin-top: 0px;
+}
+.navegacao{
+  background-image: url(../img/logo3.jpg);
+}
+.menu{
+  border-bottom:none;
+  margin-top: 17px;
+}
+.menu li a{
+  color:#fff;
+}
+
+/*Estilo do centro*/
+.categoria{
+    background-image: url(../img/meio1.jpg);
+
+}
+.categoria1{
+  margin-top: 40px;
+}
+.categoria h1, h3, a{
+  color: #fff;
+}
+
+.categoria iframe{
+  margin-bottom:25px;
+}
+
+h1 {
+  color: #ffffff;
+}
+
+
+/*formulario*/
+.form-group input{
+  background: #fff;
+  height: 38px;
+}
+
+.form-group textarea{
+  height: 60px;
+}
+
+label{
+  color: #ffff
+}
+
+#botao{ 
+  text-align: center;
+}
+
+
+/*Estilo Rodape fim da pagina*/
+.rodape{
+  background: black;
+}
+.rodape a, p , h4 , h6{
+  color:#fff;
+}
+
+.comentarios img {
+  width: 50px;
+  height: 50px;
+}
+
+hr{
+ border-color: #FFF;
+}
+
+element {
+}

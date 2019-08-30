@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Home Page</title>
+    <link rel="icon" type="image/jpg" href="img/logo.png"/>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/index.css">
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </head>
+
+  <body>
+    <div class="container-fluid">
+      <div class="row  navegacao">    <!--- fixed-top ------>
+        <div class="col-md-3 offset-md-1">
+          <img class="logo"src="img/logo.png">
+        </div>
+        <div class="col-md-8">
+          <ul class="nav nav-tabs menu">
+            <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+            <li class="nav-item"><a class="nav-link" href="noticias.html">Noticias</a></li>
+            <li class="nav-item"><a class="nav-link" href="galeria.html">Galeria</a></li>
+            <li class="nav-item"><a class="nav-link" href="contatos.html">Contatos</a></li>
+            <li class="nav-item"><a class="nav-link" href="eventos.html">Eventos</a></li>
+          </ul>
+        </div>
+      </div>
+
+        <!--- AQUI COMEÇA O SLIDE ----------------------------------------------->
+      <div class="row slide">
+        <div class="col-md-1"style="padding:0px;">
+          <img class="img-fluid" src="img/teste.png" alt="" style="width: 100%;height:100%;max-width: 120px">
+        </div>
+        <div class="col-md-10"style="padding:0px;">
+          <div id="demo" class="carousel slide" data-ride="carousel">
+            <!-- INDICADORES -->
+            <ul class="carousel-indicators">
+              <li data-target="#demo" data-slide-to="0" class="active"></li>
+              <li data-target="#demo" data-slide-to="1"></li>
+              <li data-target="#demo" data-slide-to="2"></li>
+              <li data-target="#demo" data-slide-to="3"></li>
+            </ul>
+
+            <!-- O SLIDE SHOW -->
+
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="galeria/slide0.jpg" alt="slide 1">
+                <div class="carousel-caption">
+                  <div class="container">
+                    <h2><b>Fortnite</b></h2>
+                    <br>
+                    <h6><p>Fortnite é um Battle Royale desenvolvido pela Epic Games que pode ser jogado de graça no PS4,
+                       Xbox One, PC, Nintendo Switch e celulares Android e iPhone (iOS).
+                    </p>
+                    <p>
+                     O jogo é considerado um dos maiores sucesso do gênero, e ainda está entre os games online mais jogados atualmente.
+                    </p></h6>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="galeria/slide1.jpg" alt="slide 2">
+                <div class="carousel-caption">
+                  <div class="container">
+                    <h2><b>PUBG</b></h2>
+                    <br>
+                    <h6><p>"PlayerUnknown's: Battlegrounds" é um dos maiores sucessos inesperados de 2017.
+                    </p>
+                    <p>
+                      O game, que ainda não fez sua estreia nos consoles,
+                      mas já é adorado pela comunidade de PC, conseguiu dar um susto em nomes gigantes como "League of Legends", "Counter-Strike" e "DotA 2".
+                    </p></h6>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                  <img src="galeria/slide2.jpg" alt="slide 3">
+                  <div class="carousel-caption">
+                    <div class="container">
+                      <h2><b>DMC 5</b></h2>
+                      <br>
+                      <h6><p>Devil May Cry 5 é um jogo eletrônico de ação-aventura hack and slash que conta com o retorno de Dante e Nero como personagens
+                        jogáveis, junto com um novo personagem, chamado "V".
+                      </p>
+                      <p>
+                       A jogabilidade é semelhante aos outros títulos da série Devil May Cry, concentrando-se em um combate de "ação elegante".
+                      </p></h6>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="galeria/slide3.jpg" alt="slide 4">
+                  <div class="carousel-caption">
+                    <div class="container">
+                      <h2><b>GoW</b></h2>
+                      <br>
+                      <h6><p>God of War recebeu elogios por sua narrativa, design do mundo, direção de arte,
+                        trilha sonora, gráficos, personagens, sistema de combate e sentimento cinematográfico.
+                      </p>
+                      <p>
+                       Recebeu pontuações perfeitas de vários revisores e é o jogo de melhor recepção da série God of War e o quarto jogo de PlayStation 4.
+                      </p></h6>
+                    </div>
+                  </div>
+                </div>
+            </div>
+
+            <!-- CONTROLES ESQUERDA E DIREIRA DO CAROUSEL -->
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-md-1"style="padding:0px;">
+          <img src="img/teste2.png" alt="" style="width:100%;height:100%;max-width: 120px">
+        </div>
+      </div>
+      <!-- AQUI TERMINA O SLIDE ----------------------------------------------->
+
+      <!--- AQUI COMEÇA O CAMPO NOTICIAS -------------------------------------->
+
+      <div class="container-fluid">
+        <div class="row noticias">
+          <div class="col-md-1 offset-md-1">
+            <h2>Notícias</h2>
+          </div>
+          <div class="row ">
+            <div class="col-md-2 offset-md-2">
+              <p>Junho. 19, 2019</br>
+              Cyberpunk 2077: Os diferentes grupos sociais do futuro. A primeira mostra o visual da "pobreza".
+              A descrição diz: "O   <a href="https://br.ign.com/cyberpunk-2077/74427/news/cyberpunk-2077-os-diferentes-grupos-sociais-do-futuro"
+              class="bnt bnt-link">Saiba Mais</a></p>
+            </div>
+            <div class="borda"></div>
+            <div class="col-md-2">
+              <p>Junho. 19, 2019</br>
+              Xbox Scarlett e PS5 são “mais do mesmo”, declara diretor da Platinum Games. Apesar de
+              faltar um tempo considerável  <a href="https://www.comboinfinito.com.br/principal/xbox-scarlett-e-ps5-sao-mais-do-mesmo-declara-diretor-da-platinum-games/"
+              class="bnt bnt-link">Saiba Mais</a></p>
+            </div>
+            <div class="borda"></div>
+            <div class="col-md-2">
+              <p>Junho. 18, 2019</br>
+              Fortnite: Patriota arrecada US$ 110 mil para caridade na Summer Block Party O brasileiro
+              Kim "Patriota" Nigro participou <a href="https://vs.com.br/artigo/fortnite-pariota-arrecada-usdollar-110-mil-para-caridade-na-summer-block-party"
+              class="bnt bnt-link">Saiba Mais</a></p>
+            </div>
+            <div class="borda"></div>
+            <div class="col-md-2">
+            <p>Junho. 17, 2019</br>
+              Devil May Cry 5 tem uma cena censurada em versões ocidentais no PlayStation 4.Como em
+              quase todas as outras mídias <a href="https://canaltech.com.br/games/devil-may-cry-5-tem-uma-cena-censurada-em-versoes-ocidentais-no-playstation-4-134433/"
+              class="bnt bnt-link">Saiba Mais</a></p>
+            </div>
+          </div>
+        </div>
+
+
+          <!-- AQUI TERMINA AS NOTICIAS ----------------------------------------------->
+
+
+        <div class="row categoria" >
+          <div class="col-md-3 offset-md-1 categoria1">
+            <h1>Categorias</h1>
+            <ul class="lista2">
+                      <li><a href="#">Ação</a></li>
+                      <li><a href="#">Achar Objetos</a></li>
+                      <li><a href="#">Aventura</a></li>
+                      <li><a href="#">Beleza</a></li>
+                      <li><a href="#">Cabeleireiro</a></li>
+                      <li><a href="#">Carinho</a></li>
+                      <li><a href="#">Corrida</a></li>
+                      <li><a href="#">Casamento</a></li>
+                      <li><a href="#">Casino Games</a></li>
+                      <li><a href="#">Cozinhar</a></li>
+                      <li><a href="#">Crianças</a></li>
+                      <li><a href="#">Decoração</a></li>
+                      <li><a href="#">Enigma</a></li>
+                      <li><a href="#">Esporte</a></li>
+                      <li><a href="#">Estacionamento</a></li>
+                      <li><a href="#">Garotas</a></li>
+                      <li><a href="#">Habilidade</a></li>
+                      <li><a href="#">Multiplayer</a></li>
+                      <li><a href="#">Namoro</a></li>
+                      <li><a href="#">Quizzes</a></li>
+                      <li><a href="#">Restaurante</a></li>
+                      <li><a href="#">Time Management</a></li>
+                      <li><a href="#">Vestir</a></li>
+                  </ul>
+
+                    <h3>Videos Recentes</h3>
+                    <iframe width="250" height="140" src="https://www.youtube.com/embed/lpII02CINvM" allowfullscreen></iframe>
+
+          </div>
+
+            <div class="col-md-8 menugaleria">
+              <ul class="nav nav-tabs" role="tablist">
+                <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#menu">Novos</a></li>
+                <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#menu1">Populares</a></li>
+              </ul>
+
+              <!-- Informação da nav tabela-->
+
+              <div class="tab-content galeria">
+                <div id="menu" class="tab-pane active"><br>
+                  <div class="row">
+                    <div class="row">
+                      <div class="col-md-1"></div>
+                      <div class="col-md-4">
+                        <img src="galeria/img1.jpg" alt=" " style="width:260px;">
+                        <h5>DMC 5 (2019)</h5>
+                        <p>No jogo, Nero está comandando uma agência móvel de caça-demônios e recebeu o
+                        <a href="https://br.ign.com/devil-may-cry-5/63701/news/devil-may-cry-5-diretor-compartilha-detalhes-da-historia-e-promete-mais-informacoes-na-gamescom"target= "_blank"
+                        class="bnt bnt-link">Saiba Mais</a></p>
+                      </div>
+                      <div class="col-md-1"></div>
+                      <div class="col-md-4">
+                        <img src="galeria/img2.png" alt=" " style="width:260px;">
+                        <h5>CiberPunk 2077 (2019)</h5>
+                        <p>Em 2077, a América está arruinada.Megacorporações controlam a vida em
+                        <a href="https://br.ign.com/cyberpunk-2077/74427/news/cyberpunk-2077-os-diferentes-grupos-sociais-do-futuro"target= "_blank"
+                        class="bnt bnt-link">Saiba Mais</a></p>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-1"></div>
+                      <div class="col-md-4">
+                        <img src="galeria/img3.jpg" alt=" " style="width:260px;">
+                        <h5>Saints Row: The Third (2019)</h5>
+                        <p>Pense em GTA num dia de fúria durante uma festa rave. Isso é, mais ou menos, o
+                        <a href="https://www.ign.com/articles/2011/11/11/saints-row-the-third-review"target= "_blank"
+                        class="bnt bnt-link">Saiba Mais</a></p>
+                      </div>
+                      <div class="col-md-1"></div>
+                      <div class="col-md-4">
+                        <img src="galeria/img4.jpg" alt=" " style="width:260px;">
+                        <h5>Bayonetta 3 (2019)</h5>
+                        <p>O terceiro game será exclusivamente para Nintendo Switch
+                        <a href="https://br.ign.com/bayonetta-3/56452/news/bayonetta-3-sera-lancado-apenas-para-nintendo-switch"target= "_blank"
+                        class="bnt bnt-link">Saiba Mais</a></p>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-1"></div>
+                      <div class="col-md-4">
+                        <img src="galeria/img5.jpg" alt=" " style="width:260px;">
+                        <h5>Luigi's Mansion 3 (2019)</h5>
+                        <p>Luigi's Mansion 3 é um próximo jogo de ação e aventura desenvolvido pela Next
+                        <a href="https://jovemnerd.com.br/nerdbunker/luigis-mansion-3-trailer-assombros/"target= "_blank"
+                        class="bnt bnt-link">Saiba Mais</a></p>
+                      </div>
+                      <div class="col-md-1"></div>
+                      <div class="col-md-4">
+                        <img src="galeria/img6.jpg" alt=" " style="width:260px;">
+                        <h5>Kingdom Hearts III (2019)</h5>
+                        <p>KINGDOM HEARTS III conta a história do poder da amizade e da luz
+                        <a href="https://br.ign.com/kingdom-hearts-3/70454/review/review-kingdom-hearts-3"target= "_blank"
+                        class="bnt bnt-link">Saiba Mais</a></p>
+                      </div>
+                    </div>
+                  </div>
+                  <br>
+                </div>
+                <div id="menu1" class="tab-pane fade"><br>
+                  <div class="row">
+                    <div class="row">
+                      <div class="col-md-1"></div>
+                      <div class="col-md-4">
+                        <img src="galeria/img7.jpg" alt=" " style="width:260px;">
+                        <h5>Grand Theft Auto: SA (2005)</h5>
+                        <p>Grand Theft Auto: San Andreas é um jogo eletrônico de ação-aventura desenvolvido
+                        <a href="https://br.ign.com/ign-spoiler/57727/feature/ign-spoiler-a-historia-de-gta-san-andreas"target= "_blank"
+                        class="bnt bnt-link">Saiba Mais</a></p>
+                      </div>
+                      <div class="col-md-1"></div>
+                      <div class="col-md-4">
+                        <img src="galeria/img8.jpg" alt=" " style="width:260px;">
+                        <h5>Underground (2003)</h5>
+                        <p>Need for Speed: Underground é o sétimo jogo de corrida da série Need for Speed
+                        <a href="https://br.ign.com/need-for-speed-2015/10959/review/review-need-for-speed"target= "_blank"
+                        class="bnt bnt-link">Saiba Mais</a></p>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-1"></div>
+                      <div class="col-md-4">
+                        <img src="galeria/img9.jpg" alt=" " style="width:260px;">
+                        <h5>Most Wanted (2005)</h5>
+                        <p>Need for Speed: Most Wanted é um jogo eletrônico da série Need For Speed, o nono jogo
+                        <a href="https://www.ign.com/articles/2012/10/30/need-for-speed-most-wanted-review-3"target= "_blank"
+                        class="bnt bnt-link">Saiba Mais</a></p>
+                      </div>
+                      <div class="col-md-1"></div>
+                      <div class="col-md-4">
+                        <img src="galeria/img10.jpg" alt=" " style="width:260px;">
+                        <h5>Dragon Ball Z (2007)</h5>
+                        <p>Dragon Ball Z: Budokai Tenkaichi 3 é um jogo eletrônico para PlayStation 2
+                        <a href="https://br.ign.com/dragon-ball-budokai-3/58987/feature/os-sete-melhores-games-de-dragon-ball-na-historia?p=2"target= "_blank"
+                        class="bnt bnt-link">Saiba Mais</a></p>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-1"></div>
+                      <div class="col-md-4">
+                        <img src="galeria/img11.jpg" alt=" " style="width:260px;">
+                        <h5>Mortal Kombat 9 (2011)</h5>
+                        <p>Mortal Kombat é o nono título da série de jogos eletrônicos de luta, Mortal Kombat. Por ser
+                        <a href="https://www.ign.com/articles/2011/04/19/mortal-kombat-review" target= "_blank"
+                        class="bnt bnt-link">Saiba Mais</a></p>
+                      </div>
+                      <div class="col-md-1"></div>
+                      <div class="col-md-4">
+                        <img src="galeria/img12.jpg" alt=" " style="width:260px;">
+                        <h5>Goof Troop (1993)</h5>
+                        <p>O jogo é baseado na série de mesmo nome. Antes de começar a jogar o jogador pode escolher
+                        <a href="http://www.nintendolife.com/reviews/snes/goof_troop" target= "_blank"
+                        class="bnt bnt-link">Saiba Mais</a></p>
+                      </div>
+                    </div>
+                  </div>
+                  <br><br>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+
+
+      <div class="row rodape" style="padding-bottom:25px;">
+          <div class="col-md-2">
+            <br>
+            <h4>Arquivo</h4>
+            <br>
+            <ul class="lista2">
+                      <li><a href="#">Junho 2019</a></li>
+                      <li><a href="#">Maio 2019</a></li>
+                      <li><a href="#">Abril 2019</a></li>
+                      <li><a href="#">Março 2019</a></li>
+                      <li><a href="#">Fevereiro 2019</a></li>
+                      <li><a href="#">Janeiro 2019</a></li>
+                   </ul>
+          </div>
+
+          <div class="col-md-3">
+            <br>
+            <form action="/action_page.php">
+               <div class="form-group">
+                 <h4>Noticias por Email</h4>
+                 <br>
+                 <h6>Cadastre seu e-mail para receber todas as notícias.</h6>
+                 <br>
+                 <input type="email" class="form-control" id="email" placeholder="Digite seu Email"><br>
+               </div>
+               <button type="submit" class="btn btn-primary">Inscrever</button>
+            </form>
+          </div>
+
+          <div class="col-md-4">
+            <br>
+            <h4>Últimos Comentarios</h4>
+            <div class="media  p-3">
+              <img src="img/bruno.jpg" alt="John Doe" class="mr-3 mt-3 rounded-circle" style="width:60px;">
+              <div class="media-body">
+                  <h4>Bruno Barros <small><i>Postado em Julho 19, 2019</i></small></h4>
+                  <p>Site muito bom, nota 100/10</p>
+                  <hr/>
+              </div>
+            </div>
+          </div>
+
+        <div class="col-md-3">
+          <br>
+          <h4>Faça Login.</h4>
+          <form action="/action_page.php" class="was-validated">
+           <div class="form-group">
+             <label for="uname" style="color:#fff;">Usuario:</label>
+             <input type="text" class="form-control" id="uname" placeholder="Enter username" name="uname" required>
+             <div class="valid-feedback">Valido.</div>
+             <div class="invalid-feedback">Por Favor Preencha este campo.</div>
+           </div>
+           <div class="form-group">
+             <label for="pwd"style="color:#fff;">Senha:</label>
+             <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd" required>
+             <div class="valid-feedback">Valido.</div>
+             <div class="invalid-feedback">Por Favor Preencha este campo.</div>
+           </div>
+           <button type="submit" class="btn btn-primary">Entrar</button>
+          </form>
+        </div>
+
+      </div>
+      <div class="row justify-content-center" style="background: rgb(10 32 50); ">
+        <h6 style="color:rgb(126 126 126);">Copyright©2019, Bruno Barros and Rigotto Company.</h6>
+
+      </div>
+    </div>
+  </body>
+</html>

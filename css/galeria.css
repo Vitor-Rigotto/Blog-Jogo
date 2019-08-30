@@ -1,0 +1,92 @@
+/*Estilo do corpo da pagina*/
+body{
+  background: rgb(62,62,62);
+}
+li:hover {
+    background-color:#00ff00!important;
+}
+
+/*Estilo do centro*/
+.categoria{
+    background-image: url(../img/meio1.jpg);
+
+}
+.categoria1{
+  margin-top: 40px;
+}
+.categoria h1, h3, a{
+  color: #fff;
+}
+
+.categoria iframe{
+  margin-bottom:25px;
+}
+
+
+.lista2 a{
+  text-decoration: none;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  display: block;
+  border-top: 2px solid rgb(62,62,62);
+  color: #fff;
+}
+
+.lista2 li{
+  list-style-type:none;
+
+}
+/*Estilo do cabeçalho e menu*/
+.logo{
+  margin-top: 30px;
+}
+.navegacao{
+  background-image: url(../img/logo3.jpg);
+}
+.menu{
+  border-bottom:none;
+  margin-top: 17px;
+}
+.menu li a{
+  color:#fff;
+}
+
+
+/*Estilo da galeria walpapers*/
+
+.tz-gallery {
+    padding: 40px;
+}
+
+.tz-gallery .lightbox img {
+    width: 100%;
+    margin-bottom: 15px;
+
+}
+
+.tz-gallery img {
+    border-radius: 10px;
+}
+
+
+/*Estilo Rodape fim da pagina*/
+.rodape{
+  background: black;
+}
+.rodape a, p , h4 , h6{
+  color:#fff;
+}
+
+.form-group input{
+background: rgb(62,62,62);
+height:24px;
+}
+
+.comentarios img {
+  width: 50px;
+  height: 50px;
+}
+
+hr{
+ border-color: #FFF;
+}

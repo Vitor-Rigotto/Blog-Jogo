@@ -1,0 +1,53 @@
+/*Estilo do corpo da pagina*/
+body{
+  background-image: url(../img/meio1.jpg);
+}
+li:hover {
+    background-color:#00ff00!important;
+}
+
+/*Estilo do cabeçalho e menu*/
+.logo{
+  margin-top: 30px;
+}
+.navegacao{
+  background-image: url(../img/logo3.jpg);
+}
+.menu{
+  border-bottom:none;
+  margin-top: 17px;
+}
+.menu li a{
+  color:#fff;
+}
+
+
+/*Estilo do centro*/
+h1{
+  color: #ffffff;
+}
+
+/*Estilo Rodape fim da pagina*/
+.rodape{
+  background: black;
+}
+.rodape a, p , h4 , h6{
+  color:#fff;
+}
+
+.form-group input{
+background: rgb(62,62,62);
+height:24px;
+}
+
+.comentarios img {
+  width: 50px;
+  height: 50px;
+}
+
+hr{
+ border-color: #FFF;
+}
+
+element {
+}

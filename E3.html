@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+    <html lang="pt-br">
+
+    <head>
+      <title>E3</title>
+      <link rel="icon" type="image/jpg" href="galeria/E3.jpg"/>
+    </head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/E3.css">
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </head>
+
+  <body>
+    <div class="container-fluid">
+      <div class="row  navegacao">    <!--- fixed-top ------>
+        <div class="col-md-3 offset-md-1">
+          <img class="logo"src="img/logo.png">
+        </div>
+        <div class="col-md-8">
+          <ul class="nav nav-tabs menu">
+            <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+            <li class="nav-item"><a class="nav-link" href="noticias.html">Noticias</a></li>
+            <li class="nav-item"><a class="nav-link" href="galeria.html">Galeria</a></li>
+            <li class="nav-item"><a class="nav-link" href="contatos.html">Contatos</a></li>
+            <li class="nav-item"><a class="nav-link" href="eventos.html">Eventos</a></li>
+          </ul>
+        </div>
+      </div>
+
+
+      <!-- info -->
+
+      <div class="col-md-12">
+        <center><h1> O que é a E3 ?</h1></center>
+        <p align="justify"> A Electronic Entertainment Expo (mais conhecida como E3), é uma feira internacional dedicada a jogos eletrônicos. É considerada a mais importante do gênero, por reunir novidades relativas a lançamentos e tendências de mercado de várias empresas do setor dos jogos. O evento teve seu início em 1995 e, desde então, acontece anualmente. Em todas as edições, com exceção de 2007, que foi realizado em Santa Mônica, Califórnia, foram realizados em Los Angeles Convention Center. A edição mais recente, a E3 2019, foi realizado de 11 a 13 de junho de 2019.</p>
+
+        <p align="justify">Durante dois anos, a feira passou a ser chamada de E3 Media and Business Summit, por diminuir seu porte e sofrer alterações em seu formato, com foco em profissionais da indústria, o que resultou em uma queda notável de visitantes. Contudo, em 2009, o evento foi reestruturado novamente para abranger profissionais mais diversificados, frente à má recepção das edições de 2007 e 2008.</p>
+        <hr></hr>
+
+        <center><h1>História</h1></center>
+        <p align="justify"> Em 1995, a E3 foi organizada pela Interactive Digital Software Association (agora a Entertainment Software Association). Coincidiu com o início de uma nova geração de consoles, com o lançamento do Sega Saturn, e os anúncios de novos lançamentos de PlayStation, Virtual Boy e Neo-Geo CD. Especificações para a Nintendo Ultra 64 (mais tarde rebatizado de Nintendo 64) foram liberados, mas não havia nenhum hardware mostrado. O evento decorreu de 11 de maio até 13 de maio no Los Angeles Convention Center, em Los Angeles. Entre as principais empresas no evento, incluíam Sega of America, Inc., o presidente e CEO, Thomas Kalinske; o presidente da Sony Electronic Publishing Company, Olaf Olafsson; e o presidente da Nintendo Howard Lincoln.</p>
+        <hr></hr>
+
+        <center><h1>Cobertura da Mídia</h1></center>
+        <p align="justify">Diversos sites e blogs fazem a cobertura, com webcasts ao vivo ou análise dos jogos. Alguns sites populares incluem (mas não limitados a esses sites) GameSpot, IGN, 1UPos portais de jogos do UOL e o Voxel (anteriormente Baixaki Jogos, e TecMundo Games).
+        </p>
+
+        <p align="justify">Inicialmente, o evento permitia entrada de qualquer pessoa, mas depois de 2007, o evento ficou mais focado para jornalistas profissionais, jornalistas de jornal, jornalistas de sites e também, jornalistas de fã sites. Esses jornalistas devem ter suas credenciais verificadas pela ESA antes de cobrirem o evento.</p>
+        
+
+          <!-- contagem -->
+          <hr><h1><center>Contagem Regressiva E3 2020!<h1><hr/>
+
+          <script language="JavaScript1.2">
+            var aa = 2020
+            var mm = 06
+            var dd = 09
+            var hh = 00
+            var mi = 00
+
+            function setcountdown(theyear,themonth,theday,hour,minutes) {
+              yr=theyear;
+              mo=themonth;
+              da=theday
+            } 
+
+            setcountdown(aa,mm,dd)
+
+
+            var occasion="E3 2020"
+            var message_on_occasion="É hoje"
+
+
+            var countdownwidth='510px'
+            var countdownheight='200px'
+            var countdownbgcolor='#0000'
+            var opentags='<font face="Verdana" size="5" color="#FFFFFF">'
+            var closetags='</font>'
+
+
+            var montharray=new Array("Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec")
+            var crosscount=''
+
+            function start_countdown(){
+              if (document.layers) 
+                document.countdownnsmain.visibility="show"
+
+              else if 
+                (document.all||document.getElementById)
+              crosscount=document.getElementById&&!document.all?document.getElementById("countdownie") : countdownie
+              countdown()
+            }
+
+            if (document.all||document.getElementById)
+              document.write('<span id="countdownie" style="width:'+countdownwidth+'; background-color:'+countdownbgcolor+'"></span>')
+
+            window.onload=start_countdown
+
+
+            function countdown(){
+              var today=new Date()
+              var todayy=today.getYear()
+
+              if (todayy < 1000)
+                todayy+=1900
+
+              var todaym=today.getMonth()
+              var todayd=today.getDate()
+              var todayh=today.getHours()
+              var todaymin=today.getMinutes()
+              var todaysec=today.getSeconds()
+
+              var todaystring=montharray[todaym]+" "+todayd+", "+todayy+" "+todayh+":"+todaymin+":"+todaysec
+              futurestring=montharray[mo-1]+" "+da+", "+yr
+
+              dd=Date.parse(futurestring)-Date.parse(todaystring)
+
+              dday=Math.floor(dd/(60*60*1000*24)*1)
+              dhour=Math.floor((dd%(60*60*1000*24))/(60*60*1000)*1)
+              dmin=Math.floor(((dd%(60*60*1000*24))%(60*60*1000))/(60*1000)*1)
+              dsec=Math.floor((((dd%(60*60*1000*24))%(60*60*1000))%(60*1000))/1000*1)
+
+          //caso esteja no dia de início do evento
+          if(dday<=0&&dhour<=0&&dmin<=0&&dsec<=1&&todayd==da){
+
+            if (document.layers){
+              document.countdownnsmain.document.countdownnssub.document.write (opentags+message_on_occasion+closetags)
+              document.countdownnsmain.document.countdownnssub.document.close()
+            }
+
+            else if (document.all||document.getElementById)
+              crosscount.innerHTML=opentags+message_on_occasion+closetags
+            return
+          }
+
+    //se passou do dia de início do evento
+    else if (dday<=-1){
+
+      if (document.layers){
+        document.countdownnsmain.document.countdownnssub.document.write(opentags+"Occasion already passed! "+closetags)
+        document.countdownnsmain.document.countdownnssub.document.close()
+      }
+
+      else if (document.all||document.getElementById)
+        crosscount.innerHTML=opentags+"Já passou"+closetags
+      return
+    }
+
+    //else, if ainda não
+    else{
+      if (document.layers){
+        document.countdownnsmain.document.countdownnssub.document.write(opentags+dday+ " days, "+dhour+" hours, "+dmin+" minutes, and "+dsec+" "+occasion+closetags)
+
+        document.countdownnsmain.document.countdownnssub.document.close()
+      }
+
+      else if (document.all||document.getElementById)
+        crosscount.innerHTML=opentags+dday+ " dias, "+dhour+" horas, "+dmin+" minutos e "+dsec+" segundos para a <b>"+closetags
+    }
+
+    setTimeout("countdown()",1000)
+  }
+
+</script>
+  </div>
+  <center>
+    <a href = "https://www.e3expo.com/show" target="_blank"><img src="galeria/E3.jpg"></a>
+  </center>
+  <hr></hr>
+
+
+<!-- rodapé -->       
+    <div class="row justify-content-center" style="background: rgb(10 32 50); ">
+      <h6 style="color:rgb(126 126 126);">Copyright©2019, Bruno Barros and Rigotto Company.</h6>
+
+    </div>
+  </body>
+

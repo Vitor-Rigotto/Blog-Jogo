@@ -1,0 +1,140 @@
+/*Estilo do corpo da pagina*/
+body{
+  background-image: url(../img/meio1.jpg);
+}
+li:hover {
+    background-color:#00ff00!important;
+}
+
+/*Estilo do cabeçalho e menu*/
+.logo{
+  margin-top: 30px;
+}
+.navegacao{
+  background-image: url(../img/logo3.jpg);
+}
+.menu{
+  border-bottom:none;
+  margin-top: 17px;
+}
+.menu li a{
+  color:#fff;
+}
+
+
+/*Estilo do carousel slide*/
+.carousel-inner h2{
+  text-shadow: 0.1em 0.1em 0.05em #333
+}
+.carousel-inner p{
+  text-align: justify;
+  color: rgb(224 224 224);
+  text-shadow: 0.1em 0.1em 0.05em #333
+}
+.carousel-inner img{
+  width: 100%;
+  height:100%;
+}
+
+.carousel-caption {
+    position: absolute;
+    left: 9%;
+    top: 9%;
+    background: url(../img/slider_banner.png); repeat;
+    border: 1px solid #474845;
+    -webkit-box-shadow: 1px 1px 1px 0 #000;
+    box-shadow: 1px 1px 1px 0 #000;
+    width: 22%;
+    text-align: center;
+}
+
+/*Estilo Noticias Meio da pagina principal e da Pagina Noticias*/
+.noticias{
+background-image: url(../img/backnoticias.png);
+}
+
+.noticias p{
+  color: #fff
+}
+
+.bnt-link{
+  color:blue;
+}
+
+.borda {
+  border-right: 3px solid rgb(62,62,62);
+}
+.noticias h2{
+  color:#fff;
+}
+
+/*Estilo do centro*/
+.categoria{
+    background-image: url(../img/meio1.jpg);
+
+}
+.categoria1{
+  margin-top: 40px;
+}
+.categoria h1, h3, a{
+  color: #fff;
+}
+
+.categoria iframe{
+  margin-bottom:25px;
+}
+
+
+.lista2 a{
+  text-decoration: none;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  display: block;
+  border-top: 2px solid rgb(62,62,62);
+  color: #fff;
+}
+
+.lista2 li{
+  list-style-type:none;
+
+}
+
+/*Estilo Galeria*/
+.menugaleria{
+  margin-top: 50px;
+}
+.galeria h5{
+  color:#fff;
+}
+
+.galeria{
+    background-image: url(../img/meio4.jpg);
+}
+.galeria ul li.active{
+	background: #8583e1;
+}
+
+/*Estilo Rodape fim da pagina*/
+.rodape{
+  background: black;
+}
+.rodape a, p , h4 , h6{
+  color:#fff;
+}
+
+.form-group input{
+background: rgb(62,62,62);
+height:24px;
+}
+
+.comentarios img {
+  width: 50px;
+  height: 50px;
+}
+
+hr{
+ border-color: #FFF;
+}
+
+element {
+}
